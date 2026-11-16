@@ -1,0 +1,22 @@
+/* LoveScope lockup in the same slot as the SafeLink wordmark */
+.sl-brand{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.sl-brand .sl-wordmark{
+  display:block;
+  height:72px;
+  width:auto;
+  max-width:min(280px, 88vw);
+  object-fit:contain;
+}
+.sl-brand.sl-brand-sm .sl-wordmark{
+  height:56px;
+  max-width:min(220px, 82vw);
+}
+
+.ls-upsell-brand{padding:14px 16px 2px;}
+#loader .ls-upsell-brand{padding:0 0 12px;}
+.ls-step5-brand{background:#fff;padding:8px 12px 0;flex-shrink:0;}
+.ls-step5-brand .sl-wordmark{height:48px;max-width:min(210px, 70vw);}
